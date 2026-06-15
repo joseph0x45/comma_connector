@@ -90,7 +90,7 @@
 	(footprint "CONN12X1_2317507:CONN12X1_2317507-1_TEC"
 		(layer "F.Cu")
 		(uuid "4a46d7dd-6c7e-4c83-b9a2-ce6bef3ec743")
-		(at 199.3951 101.8255 180)
+		(at 200 126 180)
 		(tags "2317507-1 ")
 		(property "Reference" "J1"
 			(at 0 9.5377 180)
@@ -1283,6 +1283,17 @@
 			)
 		)
 	)
+	(gr_rect
+		(start 170 55)
+		(end 230 135.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "35d5ccb6-e1a9-4e1c-b242-bef41d9d7257")
+	)
 	(segment
 		(start 198.945101 70.054899)
 		(end 199 70)
@@ -1298,22 +1309,6 @@
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_9)")
 		(uuid "daced15c-72e0-43e8-bdc1-7675adc02fd8")
-	)
-	(segment
-		(start 196.245099 92.254901)
-		(end 196.5 92)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_10)")
-		(uuid "7ce5a3bc-2e5c-4e80-989f-5ac10bc5a24b")
-	)
-	(segment
-		(start 196.245099 92.2878)
-		(end 196.245099 92.254901)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(J2-Pin_10)")
-		(uuid "bf4e9404-63cb-4c70-a32e-339474cd80d8")
 	)
 	(embedded_fonts no)
 )
