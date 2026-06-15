@@ -133,7 +133,7 @@
 		(at 201.5 104 180)
 		(tags "2317507-1 ")
 		(property "Reference" "J1"
-			(at 0 9.5377 180)
+			(at -11 -3 270)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "bcd72eee-f566-4104-9dba-b5883e30dc6c")
@@ -145,7 +145,7 @@
 			)
 		)
 		(property "Value" "2317507-1"
-			(at 0 9.5377 180)
+			(at -11 3.5 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "ebe6d3e2-85bf-4a10-83d8-cba7ef865f80")
@@ -354,7 +354,7 @@
 			(uuid "829c4fae-ec88-48c2-931a-64ea4da60de7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 9.5377 180)
+			(at -11 -3 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "a819d0c8-d72a-4f8b-ac93-7f715e816890")
@@ -494,8 +494,9 @@
 		(descr "Terminal Block Xinya XY308-2.54-12P, 12 pins, pitch 2.54mm, size 31x6.5mm, drill diameter 1.2mm, pad diameter 2mm, http://www.xinyaelectronic.com/product/xy308-254")
 		(tags "THT Terminal Block Xinya XY308-2.54-12P pitch 2.54mm size 31x6.5mm drill 1.2mm pad 2mm")
 		(property "Reference" "J2"
-			(at 13.97 -4.22 180)
+			(at -2.92 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "51b0824e-0408-4a19-a29f-68e75c7e1e9c")
 			(effects
 				(font
@@ -1116,17 +1117,6 @@
 			(layer "F.Fab")
 			(uuid "84fca618-1306-42fc-a89a-5cdd35c6ff59")
 		)
-		(fp_text user "${REFERENCE}"
-			(at 13.97 2.15 180)
-			(layer "F.Fab")
-			(uuid "37d2284c-e8f4-43cd-82ab-da7482221d63")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(pad "1" thru_hole roundrect
 			(at 0 0 180)
 			(size 2 2)
@@ -1272,6 +1262,17 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_rect
+		(start 183 54.5)
+		(end 220 114)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2043c5a9-8b40-428b-b035-c0613f19bfc2")
 	)
 	(segment
 		(start 206.45 94.4623)
