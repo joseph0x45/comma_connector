@@ -2413,7 +2413,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-12P_1x12_P5.00mm"
+		(property "Footprint" "TerminalBlock:TerminalBlock_Xinya_XY308-2.54-12P_1x12_P2.54mm_Horizontal"
 			(at 105.41 115.57 0)
 			(hide yes)
 			(show_name no)

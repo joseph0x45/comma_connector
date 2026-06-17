@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "project": "comma_connector.kicad_pro",
+  "current": "2026-06-17_0700",
+  "runs": {
+    "2026-06-17_0700": {
+      "source_hashes": {
+        "comma_connector.kicad_sch": "sha256:383b939d5e25840c15fcb98a72ee7837901d16ae0b6801ec69a0638543895221",
+        "comma_connector.kicad_pcb": "sha256:12dc78b96fc11bc445fc5743561717f026539471cf2d37df5d79475b9387987c"
+      },
+      "outputs": {
+        "schematic": "schematic.json",
+        "pcb": "pcb.json",
+        "cross_analysis": "cross_analysis.json",
+        "gerber": "gerber.json"
+      },
+      "scripts": {
+        "schematic": "analyze_schematic.py comma_connector.kicad_sch"
+      },
+      "generated": "2026-06-17T07:00:55+00:00",
+      "pinned": false
+    }
+  }
+}

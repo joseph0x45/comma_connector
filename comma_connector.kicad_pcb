@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -122,15 +121,15 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "./")
 		)
 	)
 	(footprint "CONN12X1_2317507:CONN12X1_2317507-1_TEC"
 		(layer "F.Cu")
 		(uuid "4a46d7dd-6c7e-4c83-b9a2-ce6bef3ec743")
-		(at 201.5 104 180)
+		(at 201.5 103 180)
 		(tags "2317507-1 ")
 		(property "Reference" "J1"
 			(at -11 -3 270)
@@ -1276,7 +1275,7 @@
 		(uuid "2043c5a9-8b40-428b-b035-c0613f19bfc2")
 	)
 	(segment
-		(start 206.45 94.4623)
+		(start 206.45 93.4623)
 		(end 206.45 92.05)
 		(width 0.25)
 		(layer "F.Cu")
@@ -1309,7 +1308,7 @@
 	)
 	(segment
 		(start 205.55 90.45)
-		(end 205.55 94.4623)
+		(end 205.55 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_2)")
@@ -1333,7 +1332,7 @@
 	)
 	(segment
 		(start 204.649999 88.350001)
-		(end 204.649999 94.4623)
+		(end 204.649999 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_3)")
@@ -1365,7 +1364,7 @@
 	)
 	(segment
 		(start 203.750001 86.249999)
-		(end 203.750001 94.4623)
+		(end 203.750001 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_4)")
@@ -1373,7 +1372,7 @@
 	)
 	(segment
 		(start 202.85 85.15)
-		(end 202.85 94.4623)
+		(end 202.85 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_5)")
@@ -1405,7 +1404,7 @@
 	)
 	(segment
 		(start 201.949999 60.930001)
-		(end 201.949999 94.4623)
+		(end 201.949999 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_6)")
@@ -1429,7 +1428,7 @@
 	)
 	(segment
 		(start 201.050001 60.710001)
-		(end 201.050001 94.4623)
+		(end 201.050001 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_7)")
@@ -1445,7 +1444,7 @@
 	)
 	(segment
 		(start 200.15 85.65)
-		(end 200.15 94.4623)
+		(end 200.15 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_8)")
@@ -1477,7 +1476,7 @@
 	)
 	(segment
 		(start 199.249999 87.249999)
-		(end 199.249999 94.4623)
+		(end 199.249999 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_9)")
@@ -1501,7 +1500,7 @@
 	)
 	(segment
 		(start 198.349999 88.849999)
-		(end 198.349999 94.4623)
+		(end 198.349999 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_10)")
@@ -1509,7 +1508,7 @@
 	)
 	(segment
 		(start 197.45 90.45)
-		(end 197.45 94.4623)
+		(end 197.45 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_11)")
@@ -1541,7 +1540,7 @@
 	)
 	(segment
 		(start 196.55 92.05)
-		(end 196.55 94.4623)
+		(end 196.55 93.4623)
 		(width 0.25)
 		(layer "F.Cu")
 		(net "Net-(J2-Pin_12)")
